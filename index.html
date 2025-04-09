@@ -1,183 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foods</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍔</text></svg>">
+  <title>Foods</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"
+  />
 </head>
 <body>
 
-<!-- navbar -->
-<div class="header-section">
-<div class="navbar-section">
-    <div class="navbar-link">
-    <i class="fas fa-home"></i>
-    <span>Home</span>
-    </div>
-    <div class="navbar-link">
-    <i class="fas fa-utensils"></i>
-    <span>Meals</span>
-    </div>
-    <div class="navbar-link">
-    <i class="fas fa-hamburger"></i>
-    <span>Burger</span>
-    </div>
-    <div class="navbar-link">
-    <i class="fas fa-pizza-slice"></i>
-    <span>Pizza</span>
-    </div>
-    <div class="navbar-link">
-    <i class="fas fa-blender-phone"></i>
-    <span>Contact</span>
-    </div>
-</div>
-
+  <!-- Navbar Section -->
+  <header class="header-section">
+    <nav class="navbar-section">
+      <div class="navbar-link"><i class="fas fa-home"></i><span>Home</span></div>
+      <div class="navbar-link"><i class="fas fa-utensils"></i><span>Meals</span></div>
+      <div class="navbar-link"><i class="fas fa-hamburger"></i><span>Burger</span></div>
+      <div class="navbar-link"><i class="fas fa-pizza-slice"></i><span>Pizza</span></div>
+      <div class="navbar-link"><i class="fas fa-blender-phone"></i><span>Contact</span></div>
+    </nav>
     <div class="menu"></div>
-  </div>
+  </header>
 
-    <!--section1 -->
-    <div class="section-1">
-        <h1 class="section-1-heading">
-            Variety of Foods
-        </h1>
-        <div class="section-1-img">
-            <img src="./img/img1.png" alt="" class="active">
-            <img src="./img/img2.png" alt="">
-            <img src="./img/img3.png" alt="">
-            <img src="./img/img5.png" alt="">
-            <img src="./img/img6.png" alt="">
-            <img src="./img/img7.png" alt="">
-            <img src="./img/img8.png" alt="">
-            <img src="./img/img9.png" alt="">
-            <img src="./img/img10.png" alt="">
-            <img src="./img/img11.png" alt="">
-            <img src="./img/img12.png" alt="">
-        </div>
+  <!-- Section 1: Variety of Foods -->
+  <section class="section-1">
+    <h1 class="section-1-heading">Variety of Foods</h1>
+    <div class="section-1-img">
+      <img src="./img/img1.png" alt="" class="active" />
+      <img src="./img/img2.png" alt="" />
+      <img src="./img/img3.png" alt="" />
+      <img src="./img/img5.png" alt="" />
+      <img src="./img/img6.png" alt="" />
+      <img src="./img/img7.png" alt="" />
+      <img src="./img/img8.png" alt="" />
+      <img src="./img/img9.png" alt="" />
+      <img src="./img/img10.png" alt="" />
+      <img src="./img/img11.png" alt="" />
+      <img src="./img/img12.png" alt="" />
     </div>
+  </section>
 
-    <!-- section-2 -->
-    <div class="section-2">
-        <h1 class="section-heading">
-            Popular Meals
-        </h1>
-        <div class="card-container">
-            <div class="card ">
-                <img src="./img/img1.png" alt="">
-                <h3 class="card-heading">Libanais</h3>
-                <button class="card-btn" title="text" type="submit">Order Now</button>
-            </div>
-            <div class="card ">
-                <img src="./img/img8.png" alt="">
-                <h3 class="card-heading">Couscous</h3>
-                <button class="card-btn" title="text" type="submit">Order Now</button>
-            </div>
-            <div class="card ">
-                <img src="./img/img6.png" alt="">
-                <h3 class="card-heading">Couscous</h3>
-                <button class="card-btn" title="text" type="submit">Order Now</button>
-            </div>
-            <div class="card ">
-                <img src="./img/img11.png" alt="">
-                <h3 class="card-heading">Crepe</h3>
-                <button class="card-btn" title="text" type="submit">Order Now</button>
-            </div>
-            <div class="card ">
-                <img src="./img/img12.png" alt="">
-                <h3 class="card-heading">Gateau</h3>
-                <button class="card-btn" title="text" type="submit">Order Now</button>
-            </div>
-            <div class="card ">
-                <img src="./img/img5.png" alt="">
-                <h3 class="card-heading">Plat Fruits </h3>
-                <button class="card-btn" title="text" type="submit">Order Now</button>
-            </div>
-        </div>
+  <!-- Section 2: Popular Meals -->
+  <section class="section-2">
+    <h1 class="section-heading">Popular Meals</h1>
+    <div class="card-container">
+      <div class="card">
+        <img src="./img/img1.png" alt="" />
+        <h3 class="card-heading">Libanais</h3>
+        <button class="card-btn" type="submit">Order Now</button>
+      </div>
+      <div class="card">
+        <img src="./img/img8.png" alt="" />
+        <h3 class="card-heading">Couscous</h3>
+        <button class="card-btn" type="submit">Order Now</button>
+      </div>
+      <div class="card">
+        <img src="./img/img6.png" alt="" />
+        <h3 class="card-heading">Couscous</h3>
+        <button class="card-btn" type="submit">Order Now</button>
+      </div>
+      <div class="card">
+        <img src="./img/img11.png" alt="" />
+        <h3 class="card-heading">Crepe</h3>
+        <button class="card-btn" type="submit">Order Now</button>
+      </div>
+      <div class="card">
+        <img src="./img/img12.png" alt="" />
+        <h3 class="card-heading">Gateau</h3>
+        <button class="card-btn" type="submit">Order Now</button>
+      </div>
+      <div class="card">
+        <img src="./img/img5.png" alt="" />
+        <h3 class="card-heading">Plat Fruits</h3>
+        <button class="card-btn" type="submit">Order Now</button>
+      </div>
     </div>
+  </section>
 
-    <!-- section-3 -->
-    <div class="section-3">
-        <h1 class="section-heading">
-            Gallery
-        </h1>
-        <div class="gallery-container">
-            <div class="gallery-card">
-                <img src="./img/cupcakes.jpg" alt="">
-                <h3 class="gallery-card-heading">Cupcakes</h3>
-                <p class="gallery-card-description">
-                    Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Vero sint sequi ipsam 
-                    voluptatum enim veritatis!
-                </p>
-            </div>
-            <div class="gallery-card">
-                <img src="./img/hamburger.jpg" alt="">
-                <h3 class="gallery-card-heading">Hamburger</h3>
-                <p class="gallery-card-description">
-                    Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Vero sint sequi ipsam 
-                    voluptatum enim veritatis!
-                </p>
-            </div>
-            <div class="gallery-card">
-                <img src="./img/hummus.jpg" alt="">
-                <h3 class="gallery-card-heading">Hummus</h3>
-                <p class="gallery-card-description">
-                    Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Vero sint sequi ipsam 
-                    voluptatum enim veritatis!
-                </p>
-            </div>
-            <div class="gallery-card">
-                <img src="./img/pancakes.jpg" alt="">
-                <h3 class="gallery-card-heading">Pancakes</h3>
-                <p class="gallery-card-description">
-                    Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Vero sint sequi ipsam 
-                    voluptatum enim veritatis!
-                </p>
-            </div>
-            <div class="gallery-card">
-                <img src="./img/salmon.jpg" alt="">
-                <h3 class="gallery-card-heading">Salmon</h3>
-                <p class="gallery-card-description">
-                    Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Vero sint sequi ipsam 
-                    voluptatum enim veritatis!
-                </p>
-            </div>
-            <div class="gallery-card">
-                <img src="./img/vegetables.jpg" alt="">
-                <h3 class="gallery-card-heading">Vegetables</h3>
-                <p class="gallery-card-description">
-                    Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Vero sint sequi ipsam 
-                    voluptatum enim veritatis!
-                </p>
-            </div>
-        </div>
+  <!-- Section 3: Gallery -->
+  <section class="section-3">
+    <h1 class="section-heading">Gallery</h1>
+    <div class="gallery-container">
+      <div class="gallery-card">
+        <img src="./img/cupcakes.jpg" alt="" />
+        <h3 class="gallery-card-heading">Cupcakes</h3>
+        <p class="gallery-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sint sequi ipsam voluptatum enim veritatis!</p>
+      </div>
+      <div class="gallery-card">
+        <img src="./img/hamburger.jpg" alt="" />
+        <h3 class="gallery-card-heading">Hamburger</h3>
+        <p class="gallery-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sint sequi ipsam voluptatum enim veritatis!</p>
+      </div>
+      <div class="gallery-card">
+        <img src="./img/hummus.jpg" alt="" />
+        <h3 class="gallery-card-heading">Hummus</h3>
+        <p class="gallery-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sint sequi ipsam voluptatum enim veritatis!</p>
+      </div>
+      <div class="gallery-card">
+        <img src="./img/pancakes.jpg" alt="" />
+        <h3 class="gallery-card-heading">Pancakes</h3>
+        <p class="gallery-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sint sequi ipsam voluptatum enim veritatis!</p>
+      </div>
+      <div class="gallery-card">
+        <img src="./img/salmon.jpg" alt="" />
+        <h3 class="gallery-card-heading">Salmon</h3>
+        <p class="gallery-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sint sequi ipsam voluptatum enim veritatis!</p>
+      </div>
+      <div class="gallery-card">
+        <img src="./img/vegetables.jpg" alt="" />
+        <h3 class="gallery-card-heading">Vegetables</h3>
+        <p class="gallery-card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sint sequi ipsam voluptatum enim veritatis!</p>
+      </div>
     </div>
+  </section>
 
-    <!-- section-4 (footer) -->
-    <div class="section-4">
-        <div class="section-4-top">
-            <div class="section-4-text">
-                <h2>SIGN ME UP</h2>
-                <p>BE THE FIRST TO KNOW ABOUT NEW PRODUCTS</p>
-            </div>
-            <div class="section-4-form">
-                <input type="text" placeholder="Enter your mail">
-                <button type="submit" title="text"><i class="fa-solid fa-circle-arrow-right"></i></button>
-            </div>
-        </div>
-        <div class="section-4-bottom">
-            SaadaouiForkan &copy All rights reserved
-        </div>
-    </div> 
+  <!-- Section 4: Footer -->
+  <footer class="section-4">
+    <div class="section-4-top">
+      <div class="section-4-text">
+        <h2>SIGN ME UP</h2>
+        <p>BE THE FIRST TO KNOW ABOUT NEW PRODUCTS</p>
+      </div>
+      <form class="section-4-form">
+        <input type="text" placeholder="Enter your mail" />
+        <button type="submit"><i class="fa-solid fa-circle-arrow-right"></i></button>
+      </form>
+    </div>
+    <div class="section-4-bottom">
+      SaadaouiForkan &copy; All rights reserved
+    </div>
+  </footer>
 
-   
-    <script src="script.js"></script>
+  <!-- Scripts -->
+  <script src="script.js"></script>
 </body>
 </html>

@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&family=Nunito:ital,wght@1,300&display=swap');
 
-:root{
-    --color1:#E5E3C9;
-    --color2:#B4CFB0;
-    --color3:#94B49F;
-    --color4:#789395;
+:root {
+    --color1: #FFF5E4; 
+    --color2: #FF6363; 
+    --color3: #FFA36C; 
+    --color4: #54B435; 
 }
 
 *{
